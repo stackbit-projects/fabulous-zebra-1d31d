@@ -1,3 +1,15 @@
 stackbitVersion: ~0.3.0
 ssgName: hugo
 buildCommand: hugo
+publishDir: public
+staticDir: static
+uploadDir: uploads
+pagesDir: content
+models:
+  page:
+    type: page
+    label: Page
+    folder: pages
+    fields:
+      - type: string
+        name: title
